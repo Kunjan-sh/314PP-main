@@ -6,8 +6,6 @@ import ru.kata.spring.boot_security.demo.entities.User;
 import java.util.List;
 
 public interface UserService extends UserDetailsService {
-//    @Transactional(readOnly = true)
-//    Set<Role> getRolesByNames(List<String> roleNames);
 
     void addUser(User user);
 
